@@ -19,7 +19,7 @@ const DBService = class {
             }           
     }
     getSearchResult (query, region) {        
-                return this.getData(`https://opendata.trudvsem.ru/api/v1/vacancies/region/${region}?text=${query}`);
+                return this.getData(`https://opendata.trudvsem.ru/api/v1/vacancies/region/${region}?text=${query}`); //по API запрос должен идти на http, но если сайт на https, запрос не проходит!
     }
 }
 
