@@ -1,0 +1,42 @@
+* {
+    margin: 3px;
+}
+.head {
+    color: green;    
+}
+.trudvsem {
+    color: grey;
+}
+.vacancy-card {
+    margin: 5px;
+}
+.search-input {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 5px 30px 5px 12px;
+    width: 400px;
+    height: 25px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 4px;
+}
+.search-button {
+    width: 115px;
+    height: 39px;
+    font-size: 16px;
+    left: 460px;
+    top: 58px;
+    line-height: 22px;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #D9D9D9;
+    border-radius: 4px;
+}
+select {
+    position: absolute;
+    width: 250px;
+    height: 25px;
+    left: 325px;
+    top: 6px;
+    border-radius: 4px;
+}
+
