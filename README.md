@@ -1,2 +1,2 @@
-# BasankoSV.github.io
+# Basanko Stanislav
 Мой первый опубликованный сайт
