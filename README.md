@@ -1,4 +1,4 @@
 # Basanko Stanislav
-Мой первый опубликованный сайт
+Мои работы:
 
 [Поиск вакансий](https://basankosv.github.io/Rostrud/)
