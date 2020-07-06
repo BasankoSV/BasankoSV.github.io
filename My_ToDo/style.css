@@ -33,15 +33,15 @@ h1 {
   text-align: center; }
 
 input[type=text] {
-  width: 366px; /* 376px*/
-  padding: 10px; 
+  width: 100%; /* 366px*/
+  padding: 10px 0 10px; 
   font-size: 16px;
 }
 
 button {
   margin-top: 10px;
-  width: 390px; /* 400px*/
-  padding: 10px;
+  width: 100%; /* 390px*/
+  padding: 10px 0 10px;
   cursor: pointer;
   font-size: 16px;
 }
