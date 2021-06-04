@@ -1,7 +1,7 @@
 # Basanko Stanislav
 Мои работы:
 
-[IIKEA магазин](https://basankosv.github.io/ikea/)
+[IIKEA магазин](https://basankosv.github.io/Ikea/)
 
 [Поиск вакансий](https://basankosv.github.io/Rostrud/)
 
