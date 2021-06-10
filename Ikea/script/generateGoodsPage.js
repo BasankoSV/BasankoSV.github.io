@@ -67,6 +67,7 @@ const generateGoodsPage = () => {
                 <button ${count === 0 ? 'style="display:none;"' : ''} 
                   class="btn btn-add-card"
                   aria-label="Добравить в корзину"
+                  title="Остаток на складе: ${count}"
                   data-idd="${id}"
                 ></button>
               </article>
