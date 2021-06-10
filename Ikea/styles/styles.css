@@ -893,19 +893,9 @@ select {
   text-transform: none;
 }
 
-.wishlist_count {
-  position: absolute;
-  top: 2rem;
-  right: 7rem;
-  font-size: 0.7rem;
-  color: red;
-  font-weight: 700;
-}
-
+.wishlist_count,
 .cart_count {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
+  padding-bottom: 10px;
   font-size: 0.7rem;
   color: red;
   font-weight: 700;
