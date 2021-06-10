@@ -33,8 +33,8 @@ h1 {
   text-align: center; }
 
 input[type=text] {
-  width: 100%; /* 366px*/
-  padding: 10px 0 10px 10px; 
+  width: 94%; /* 366px*/
+  padding: 10px; 
   font-size: 16px;
 }
 
