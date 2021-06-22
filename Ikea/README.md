@@ -1,2 +1,1 @@
-Верстка GLO-Academy /br
-JavaScript Басанько Станислав
+JavaScript: Басанько Станислав. Верстка: GLO-Academy.
