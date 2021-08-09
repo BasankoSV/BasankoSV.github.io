@@ -1,7 +1,0 @@
-export const btn = document.querySelector('.btn')
-export const overlay = document.querySelector('.overlay')
-export const btnClose = document.querySelector('.btn-close')
-export const form = document.querySelector('.form')
-export const errorMsgEmail = document.querySelector('.email-error')
-export const errorMsgPhone = document.querySelector('.phone-error')
-export const btnSubmit = document.querySelector('.btn-submit')
