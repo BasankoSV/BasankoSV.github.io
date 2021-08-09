@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Sales generator</title>
+</head>
+<body>
+    <div class="container">
+        <button class="btn">Кликни</button>
+    </div>
+    <div class="overlay">
+        <div class="modal">
+            <div class="container-grid">
+                <div class="title">Получите набор файлов для руководителя:</div>
+                <div class="icons">
+                    <img src="./img/icon_doc.png" alt="DOC">
+                    <img src="./img/icon_xls.png" alt="XLS">
+                    <img src="./img/icon_pdf.png" alt="PDF">
+                    <img src="./img/icon_pdf.png" alt="PDF">
+                    <img src="./img/icon_pdf.png" alt="PDF">
+                    <img src="./img/icon_pdf.png" alt="PDF">
+                    <img src="./img/icon_pdf.png" alt="PDF">
+                </div>
+                <div class="image">
+                </div>
+                <img src="./img/icon_close.png" alt="close" class="btn-close">
+                <form class="form" action="#">
+                    <label class="email" for="email">
+                        <span>Введите Email для получения файлов:</span>
+                        <input type="text" id="email" name="email" required placeholder="E-mail">
+                        <label class="email-error" for="email">Введите корректный e-mail адрес</label>
+                    </label>
+                    <label class="phone" for="phone">
+                        <span>Введите телефон для подтверждения доступа:</span>
+                        <input type="text" id="phone" name="phone" required placeholder="+7 (000) 000-00-00">
+                        <label class="phone-error" for="phone">Введите корректный номер телефона, 10 символов</label>
+                    </label>
+                    <button class="btn-submit" type="submit">Скачать файлы
+                        <img src="./img/btn_img.png" alt="btn">
+                    </button>
+                    <p class="describe">PDF 4,7 DOC 0,8 XLS 1,2 MB</p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
