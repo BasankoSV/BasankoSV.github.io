@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Expedia</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav-wrapper">
+                <a href="#">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+                <div class="menu">
+                    <a class="menu-link" href="#">Home</a>
+                    <a class="menu-link" href="#">Trips</a>
+                    <a class="menu-link" href="#">About</a>
+                    <a class="menu-link" href="#">Support</a>
+                    <a class="menu-link" href="#">Travel</a>
+                </div>
+                <button class="btn-singUp">Sing Up</button>
+            </nav>
+            <h1 class="title">It Matters Who You Travel With</h1>
+            <div class="description">We want you to feel confident in the travel experience you will have with us.</div>
+        </div>
+    </header>
+    <section class="booking">
+        <div class="booking-container">
+            <form action="#" id="booking-form">
+                <div class="menu">
+                    <a href="#" class="link">Stays</a>
+                    <a href="#" class="link bold">Flight</a>
+                    <a href="#" class="link">Cars</a>
+                    <a href="#" class="link">Packages</a>
+                    <a href="#" class="link">Things to do</a>
+                </div>
+                <div class="divider"></div>
+                <div class="choice">
+                    <input id="oneway" type="radio" name="way" value="oneway" class="radio-btn">
+                    <span class="custom-radio-btn one"></span>
+                    <label for="oneway" class="radio-label">One-way</label>
+                    <input id="return-way" type="radio" name="way" value="return-way" class="radio-btn" checked>
+                    <span class="custom-radio-btn two"></span>
+                    <label for="return-way" class="radio-label">Return</label>
+                    <input id="multi-city" type="radio" name="way" value="multi-city" class="radio-btn">
+                    <span class="custom-radio-btn three"></span>
+                    <label for="multi-city" class="radio-label">Multi-city</label>
+                    <div class="empty-block"></div>
+                    <select class="passenger" name="passenger" form="booking-form">
+                        <option value="1">1 traveller</option>
+                        <option selected value="2">2 traveller</option>
+                        <option value="3">3 traveller</option>
+                        <option value="4">4 traveller</option>
+                        <option value="5">5 traveller</option>
+                    </select>
+                    <select class="class-type" name="class-type" form="booking-form">
+                        <option value="vip">VIP</option>
+                        <option selected value="economy">Economy</option>
+                        <option value="business">Business</option>
+                        <option value="first">First</option>
+                    </select>
+                </div>
+                <div class="location">
+                    <div class="from">
+                        <img src="img/icon_airplane_from.png" alt="from">
+                        <span>from</span>
+                    </div>
+                    <button class="arrows">
+                        <img src="img/btn_change.png" alt="change">
+                    </button>
+                    <div class="to">
+                        <img src="img/icon_airplane_to.png" alt="to">
+                        <span>to</span>
+                    </div>
+                    <div class="departing">
+                        <img src="img/box_calendar.png" alt="">
+                        <span class="departing-text">Departing</span>
+                        <span class="departing-date">10 Jul</span>
+                    </div>
+                    <div class="returning">
+                        <img src="img/box_calendar.png" alt="">
+                        <span class="returning-text">Returning</span>
+                        <span class="returning-date">19 Jul</span>
+                    </div>
+                </div>
+                <input type="submit" class="search-btn" value="Search"/>
+            </form>
+        </div>
+    </section>
+    <section class="recommendation">
+        <div class="container">
+            <div class="title">Top Most Popular Destinations</div>
+            <div class="wrapper">
+                <div class="item_a">
+                    <div class="item_title">Moraine Lake</div>
+                    <div class="item_subtitle">Alberta, Canada</div>
+                    <img src="img/moraine.png" alt="Moraine" class="item_img">
+                </div>
+                <div class="item_b">
+                    <div class="item_title">Hokokuji Bamboo Forest</div>
+                    <div class="item_subtitle">Kamakura, Japan</div>
+                    <img src="img/hokokuji.png" alt="Hokokuji" class="item_img">
+                </div>
+                <div class="item_c">
+                    <div class="item_title">Kirkjufell</div>
+                    <div class="item_subtitle">Grundarfjordur's, Iceland</div>
+                    <img src="img/kirkjufell.png" alt="Kirkjufell" class="item_img">
+                </div>
+                <div class="item_d">
+                    <div class="item_title">Cappadocia</div>
+                    <div class="item_subtitle">Anatolia, Turkey</div>
+                    <img src="img/cappadocia.png" alt="Cappadocia" class="item_img">
+                </div>
+                <div class="item_e">
+                    <div class="item_title">Ubud</div>
+                    <div class="item_subtitle">Bali, Indonesia</div>
+                    <img src="img/ubud.png" alt="Ubud" class="item_img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="download">
+        <div class="title">Download<br>Expedia App !</div>
+        <a href="https://play.google.com/" target="_blank">
+            <img src="img/icon_googleplay.png" alt="GooglePlay" class="google_play">
+        </a>
+        <a href="https://apple.com/ru/app-store/" target="_blank">
+            <img src="img/icon_appstore.png" alt="AppStore" class="app_store">
+        </a>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="logo-rights">
+                    <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                    <div class="all-rights">
+                        <a href="#">
+                            <span>© 2021 Expedia, Inc., an Expedia Group company. All rights reserved.</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="title">Company</div>
+                    <a href="#" class="link">About us</a>
+                    <a href="#" class="link">Jobs</a>
+                    <a href="#" class="link">List your property</a>
+                    <a href="#" class="link">Partnership</a>
+                    <a href="#" class="link">Advertising</a>
+                </div>
+                <div class="explore">
+                    <div class="title">Explore</div>
+                    <a href="#" class="link">About us</a>
+                    <a href="#" class="link">Jobs</a>
+                    <a href="#" class="link">List your property</a>
+                    <a href="#" class="link">Partnership</a>
+                    <a href="#" class="link">Advertising</a>
+                </div>
+                <div class="term">
+                    <div class="title">Term and policies</div>
+                    <a href="#" class="link">About us</a>
+                    <a href="#" class="link">Jobs</a>
+                    <a href="#" class="link">List your property</a>
+                    <a href="#" class="link">Partnership</a>
+                    <a href="#" class="link">Advertising</a>
+                </div>
+                <div class="help">
+                    <div class="title">Help</div>
+                    <a href="#" class="link">About us</a>
+                    <a href="#" class="link">Jobs</a>
+                    <a href="#" class="link">List your property</a>
+                    <a href="#" class="link">Partnership</a>
+                    <a href="#" class="link">Advertising</a>
+                </div>
+                <div class="social">
+                    <div class="title">Get in touch</div>
+                    <a href="#" class="link">Question or feedback?</a>
+                    <a href="#" class="link">We’d love to hear from you</a>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/" class="link" target="_blank"><img src="img/icon_instagram.png" alt="Instagram"></a>
+                        <a href="https://twitter.com/" class="link" target="_blank"><img src="img/icon_twitter.png" alt="Twitter"></a>
+                        <a href="https://linkedin.com/" class="link" target="_blank"><img src="img/icon_linkedin.png" alt="Linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
