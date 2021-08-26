@@ -12,3 +12,5 @@
 [Тестовое задание для ООО Генератор продаж](https://basankosv.github.io/salesGenerator/)
 
 [Melody - учебный проект GLO Academy](https://basankosv.github.io/Melody/src/index.html)
+
+[Expedia - верстка готового макета](https://basankosv.github.io/Expedia/src/index.html)
