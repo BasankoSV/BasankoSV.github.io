@@ -1,0 +1,47 @@
+.automation-tool
+  font-family: Galien
+  margin-bottom: 192px
+  width: 1366px
+  height: 768px
+  position: relative
+  z-index: 1
+  display: flex
+  flex-direction: column
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%  
+    opacity: .2 
+    z-index: -1
+    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%)
+  &__title
+    margin-top: 189px
+    margin-left: 212px
+    max-width: 512px
+    font-size: 64px
+    line-height: 74px
+    letter-spacing: 0.04em
+    color: #1F3F68
+  &__description
+    margin-top: 30px
+    margin-left: 212px
+    max-width: 425px
+    font-family: Gilroy
+    font-size: 16px
+    font-weight: normal
+    line-height: 26px
+    letter-spacing: 0.05em
+    color: #1F3F68
+    opacity: 0.6
+  &__img
+    position: absolute
+    left: 655px
+    top: 88px
+.button-see-lets_boxshadow
+  @extend %button-see-lets
+  margin-top: 75px
+  margin-left: 213px
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2)
