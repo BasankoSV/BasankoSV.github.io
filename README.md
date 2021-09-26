@@ -16,3 +16,5 @@
 [Expedia - верстка готового макета](https://basankosv.github.io/Expedia/src/index.html)
 
 [Video Conference - верстка готового макета, плюс javascript](https://basankosv.github.io/VideoConference/VideoConference/index.html)
+
+[Digital Element - выполнение тестового задания](https://basankosv.github.io/DigitalElement/DigitalElement/index.html)
