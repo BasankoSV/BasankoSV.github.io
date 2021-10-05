@@ -1,0 +1,51 @@
+@mixin font($font_name, $file_name, $weight, $style)
+    @font-face
+        font-family: $font_name
+        font-display: swap
+        src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2")
+        font-weight: #{$weight}
+        font-style: #{$style}
+
+@import "fonts"
+@import "elements/buttons"
+@import "elements/title"
+@import "elements/overlay"
+@import "elements/description"
+@import "elements/close"
+@import "automation-tool"
+@import "nav"
+@import "help-client"
+@import "beloved-client"
+@import "work-team"
+@import "footer"
+@import "modal"
+@import "popup"
+@import "media"
+  
+*
+  box-sizing: border-box
+
+body
+  position: relative
+  max-width: 1366px
+  margin: 0 auto
+  
+.no-style-h1
+  font-size: unset !important
+  font-family: unset !important
+  font-weight: unset !important
+  font-style: unset !important
+  text-transform: unset !important
+  margin-top: unset !important
+  margin-bottom: unset !important
+  line-height: unset !important
+  color: unset !important
+  margin: unset !important
+  display: unset !important
+  -webkit-margin-before: unset !important
+  -webkit-margin-after: unset !important
+  -webkit-margin-start: unset !important
+  -webkit-margin-end: unset !important
+
+.hide
+  display: none
