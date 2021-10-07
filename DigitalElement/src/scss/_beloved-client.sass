@@ -1,0 +1,43 @@
+.beloved-client
+  font-family: Gilroy
+  background: #5A98D0
+  border-radius: 200px 0px 0px 0px
+  .wrapper-title
+    padding: 96px 200px 110px 214px
+    display: flex
+    .title
+      @extend %title
+      flex-basis: 30%
+    .description
+      @extend %description
+      padding-left: 62px
+      flex-basis: 70%
+  .wrapper-logo
+    margin-left:  214px
+    margin-bottom: 125px
+    max-width: 940px
+    height: 256px
+    display: flex
+    flex-wrap: wrap
+    .logo-client
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 25%
+      height: 50%
+      font-size: 20px
+      line-height: 46px
+      letter-spacing: 0.02em
+      color: #F2F2F2
+      cursor: pointer
+    .logo-client:hover
+      background: rgba(31, 63, 104, .2)
+      transition: all .5s
+  .wrapper-logo .logo-client:nth-child(-n+4)
+    border-bottom: 1px solid #FFFFFF
+  .wrapper-logo .logo-client:nth-child(-n+3)
+    border-right: 1px solid #FFFFFF
+  .wrapper-logo .logo-client:nth-child(n+5)
+    border-right: 1px solid #FFFFFF
+  .wrapper-logo .logo-client:last-child
+    border-right: none
