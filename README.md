@@ -1,13 +1,13 @@
 # Basanko Stanislav
 Мои работы:
 
-[IIKEA магазин](https://basankosv.github.io/Ikea/)
+[IIKEA магазин - макет GLO Academy, JavaScript мой](https://basankosv.github.io/Ikea/)
 
-[Поиск вакансий](https://basankosv.github.io/Rostrud/)
+[Поиск вакансий - простенько, делал для себя](https://basankosv.github.io/Rostrud/)
 
-[Список дел](https://basankosv.github.io/My_ToDo/)
+[Список дел - самый первый мой JavaScript](https://basankosv.github.io/My_ToDo/)
 
-[Объявления Awito](https://basankosv.github.io/Awito/)
+[Объявления Awito - макет GLO Academy, JavaScript мой](https://basankosv.github.io/Awito/)
 
 [Тестовое задание для ООО Генератор продаж](https://basankosv.github.io/salesGenerator/)
 
