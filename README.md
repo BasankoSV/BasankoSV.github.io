@@ -17,6 +17,6 @@
 
 [Video Conference - верстка готового макета, плюс javascript](https://basankosv.github.io/VideoConference/VideoConference/index.html)
 
-[Amaz0n - верстка готового макета, карусель на JS](https://github.com/BasankoSV/Amaz0n/blob/main/Amaz0n/index.html)
+[Amaz0n - верстка готового макета, карусель на JS](https://github.com/BasankoSV/Amaz0n/Amaz0n/index.html)
 
 [Digital Element - выполнение тестового задания](https://basankosv.github.io/DigitalElement/DigitalElement/index.html)
