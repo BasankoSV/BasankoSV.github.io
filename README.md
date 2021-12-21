@@ -20,3 +20,5 @@
 [Amaz0n - верстка готового макета, карусель на JS](https://basankosv.github.io/Amaz0n/Amaz0n/index.html)
 
 [Digital Element - выполнение тестового задания](https://basankosv.github.io/DigitalElement/DigitalElement/index.html)
+
+[Component Carousel](https://basankosv.github.io/Component-Carousel/src/index.html)
