@@ -21,4 +21,4 @@
 
 [Digital Element - выполнение тестового задания](https://basankosv.github.io/DigitalElement/DigitalElement/index.html)
 
-[Component Carousel](https://basankosv.github.io/Component-Carousel/src/index.html)
+[Component Carousel - JavaScript class Carousel](https://basankosv.github.io/Component-Carousel/src/index.html)
