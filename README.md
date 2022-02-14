@@ -23,4 +23,4 @@
 
 [Component Carousel - JavaScript class Carousel](https://basankosv.github.io/Component-Carousel/src/index.html)
 
-[React ToDo and Ant Design](https://basankosv.github.io/React-Todo/)
+[ReactJS ToDo and Ant Design](https://basankosv.github.io/React-Todo/)
