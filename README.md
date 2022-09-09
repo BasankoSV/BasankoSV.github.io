@@ -25,4 +25,4 @@
 
 [ReactJS ToDo and Ant Design](https://basankosv.github.io/React-Todo/)
 
-[Angular Kinopoisk API](https://basankosv.github.io/angular-kinopoisk/)
+[Angular Kinopoisk API - приложение предлагает промо страницу по ранее заданным параметрам, случайно выбранным типом (фильм, сериал и пр.), также, имеется поиск по русскому названию фильма.](https://basankosv.github.io/angular-kinopoisk/)
