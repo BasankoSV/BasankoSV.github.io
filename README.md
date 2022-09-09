@@ -24,3 +24,5 @@
 [Component Carousel - JavaScript class Carousel](https://basankosv.github.io/Component-Carousel/src/index.html)
 
 [ReactJS ToDo and Ant Design](https://basankosv.github.io/React-Todo/)
+
+[Angular Kinopoisk API](https://basankosv.github.io/angular-kinopoisk/)
